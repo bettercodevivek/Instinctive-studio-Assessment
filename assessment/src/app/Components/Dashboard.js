@@ -1,6 +1,7 @@
 import React from "react";
 import CenterDashboard from "./CenterDashboard";
 import LeftDashboard from "./LeftDashboard";
+import RightDashboard from "./RightDashboard";
 
 
 const Dashboard = () =>{
@@ -12,6 +13,9 @@ const Dashboard = () =>{
       </div>
       <div className="w-1/2 flex justify-center">
         <CenterDashboard />
+      </div>
+      <div className="w-1/4">
+        <RightDashboard />
       </div>
     </div>
         </React.Fragment>
