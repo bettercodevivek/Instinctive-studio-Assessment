@@ -12,7 +12,7 @@ const CenterDashboard = () => {
           {cards.map((card, idx) => (
             <div
               key={idx}
-              className="flex flex-row sm:flex-col items-center px-6 py-12 shadow-md rounded-2xl"
+              className="flex flex-row sm:flex-col items-center px-6 py-4 lg:py-12 shadow-md rounded-2xl"
               style={{ backgroundColor: card.bgColor}} // Apply background color dynamically
             >
               <img src={card.logo} alt={card.title} className="h-12 w-12 sm:h-6 sm:w-6 mb-4 " />
