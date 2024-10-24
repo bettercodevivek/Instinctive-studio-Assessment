@@ -1,10 +1,10 @@
 const LeftDashboard = () => {
     return (
-      <div className="space-y-8">
+      <div className="space-y-2">
         {/* Announcements Section */}
         <div>
-          <h2 className="text-xl text-black font-bold mb-4">Announcements</h2>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl text-black font-bold mb-6">Announcements</h2>
+          <div className="bg-white p-6 rounded-2xl shadow-md">
             <div className="space-y-4">
               {["On account of Independence Day, August 15th will be a holiday.", "Reminder to finish your assignments and submit them by Monday."].map((item, idx) => (
                 <div key={idx} className="flex items-center bg-[#F8F8F8] px-6 pt-2 rounded-lg">
@@ -18,9 +18,9 @@ const LeftDashboard = () => {
   
      {/* Class Schedule Section */}
 <div>
-  <h2 className="text-xl text-black font-bold mb-4">Your Class Schedule</h2>
-  <div className="bg-white p-6 rounded-lg shadow-md">
-    <div className="space-y-4">
+  <h2 className="text-2xl text-black font-bold mb-4">Your Class Schedule</h2>
+  <div className="bg-white p-6 rounded-xl shadow-md">
+    <div className="space-y-2">
     
       {[
         { title: 'Class 7, Science | Live Class', subheading: 'Tuesday, 5:00 - 5:50 PM', rightSubheading: 'Yesterday', bgColor: '#F2F2FF', textColor: '#4749B3' }, // Light blue bg, dark blue text

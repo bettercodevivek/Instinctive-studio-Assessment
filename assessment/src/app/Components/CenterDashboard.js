@@ -12,12 +12,12 @@ const CenterDashboard = () => {
           {cards.map((card, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center p-6 shadow-md rounded-xl"
+              className="flex flex-row sm:flex-col items-center px-6 py-12 shadow-md rounded-2xl"
               style={{ backgroundColor: card.bgColor}} // Apply background color dynamically
             >
-              <img src={card.logo} alt={card.title} className="h-6 w-6 mb-4" />
-              <h3 className="text-lg font-semibold text-white">{card.title}</h3> {/* Changed text color to white for contrast */}
-              <p className="text-sm text-gray-200">{card.subtitle}</p>
+              <img src={card.logo} alt={card.title} className="h-12 w-12 sm:h-6 sm:w-6 mb-4 " />
+              <h3 className="text-2xl font-bold text-white">{card.title}</h3> {/* Changed text color to white for contrast */}
+              <p className="text-sm hidden sm:flex text-white font-normal">{card.subtitle}</p>
             </div>
           ))}
         </div>
