@@ -1,8 +1,8 @@
 const RightDashboard = () => {
     return (
       <div className="space-y-8">
-        <h2 className="text-xl font-bold mb-4">Access Class Recordings</h2>
-        <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+        <h2 className="text-xl text-black font-bold mb-4">Access Class Recordings</h2>
+        <div className="bg-white p-6 rounded-2xl shadow-md">
           {/* Search Bar */}
           <div className="mb-6">
             <input

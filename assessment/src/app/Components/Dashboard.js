@@ -7,14 +7,14 @@ import RightDashboard from "./RightDashboard";
 const Dashboard = () =>{
     return(
         <React.Fragment>
-               <div className="container mx-auto py-12 px-6 flex justify-between space-x-12">
-               <div className="w-1/4">
+               <div className="container mx-auto py-12 px-16 flex justify-between space-x-12">
+               <div className="">
         <LeftDashboard />
       </div>
-      <div className="w-1/2 flex justify-center">
+      <div className="flex justify-center">
         <CenterDashboard />
       </div>
-      <div className="w-1/4">
+      <div className="">
         <RightDashboard />
       </div>
     </div>
