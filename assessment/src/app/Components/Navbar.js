@@ -10,7 +10,7 @@ const Navbar = () => {
   
         <div className="flex flex-col text-right">
           <span className="text-lg font-semibold">Hello, Gabrisa</span>
-          <span className="text-sm text-gray-500">Class 7, Math + Science</span>
+          <span className="text-sm text-white">Class 7, Math + Science</span>
         </div>
       </nav>
     );
