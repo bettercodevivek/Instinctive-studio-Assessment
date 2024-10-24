@@ -23,7 +23,7 @@ const LeftDashboard = () => {
     <div className="space-y-2">
     
       {[
-        { title: 'Class 7, Science | Live Class', subheading: 'Tuesday, 5:00 - 5:50 PM', rightSubheading: 'Yesterday', bgColor: '#F2F2FF', textColor: '#4749B3' }, // Light blue bg, dark blue text
+        { title: 'Class 7, Science | Live Class', subheading: 'Tuesday, 5:00 - 5:50 PM', rightSubheading: 'Yesterday', bgColor: '#F2F2FF', textColor: '#9899DF' }, // Light blue bg, dark blue text
         { title: 'Class 7, Science | Live Class', subheading: 'Tuesday, 6:30 - 7:15 PM', rightSubheading: 'Today', bgColor: '#E66DFF', textColor: '#FFFFFF' }, // Light green bg, dark green text
         { title: 'Class 7, Science | Live Class', subheading: 'Tuesday, 5:00 - 5:50 PM', rightSubheading: 'Tomorrow', bgColor: '#F2F2FF', textColor: '#4749B3' }, // Light yellow bg, dark yellow text
         { title: 'Class 7, Science | Live Class', subheading: 'Tuesday, 5:00 - 5:50 PM', rightSubheading: '23rd Sept. 2024', bgColor: '#FDF5FF', textColor: '#E66DFF' }, // Light red bg, dark red text

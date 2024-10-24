@@ -4,7 +4,7 @@ const RightDashboard = () => {
         <h2 className="text-2xl text-black font-bold">Access Class Recordings</h2>
         <div className="bg-white py-6 px-6 rounded-2xl shadow-md">
           {/* Search Bar */}
-          <div className="mb-6 flex items-center border border-gray-300 rounded-lg">
+          <div className="mb-6 flex items-center border border-gray-300 rounded-lg bg-[#4749B30D]">
             {/* Search Icon */}
             <img src="./search-normal.png" alt="Search" className="h-5 w-5 ml-2" />
   
@@ -12,7 +12,7 @@ const RightDashboard = () => {
             <input
               type="text"
               placeholder="Search for class recordings"
-              className="w-full p-2 border-none rounded-lg focus:outline-none"
+              className="w-full p-2 border-none rounded-lg focus:outline-none bg-[#4749B30D]"
             />
           </div>
   
