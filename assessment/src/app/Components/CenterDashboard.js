@@ -1,25 +1,29 @@
- const CenterDashboard = () => {
+const CenterDashboard = () => {
     const cards = [
-      { logo: '/logo1.png', title: '', subtitle: '' },
-      { logo: '/logo2.png', title: '', subtitle: '' },
-      { logo: '/logo3.png', title: '', subtitle: '' },
+      { logo: './BookLogo.png', title: 'Book Title', subtitle: 'Subheading 1', bgColor: '#4749B3' }, 
+      { logo: './LiveLogo.png', title: 'Live Session', subtitle: 'Subheading 2', bgColor: '#E66DFF' }, 
+      { logo: './Whatsapp.png', title: 'Whatsapp Group', subtitle: 'Subheading 3', bgColor: '#6669FE' }, 
     ];
   
     return (
       <div className="flex flex-col items-center">
-        <h2 className="text-2xl font-bold mb-6">Quick Links</h2>
+        <h2 className="text-2xl font-bold mb-6 text-black">Quick Links</h2>
         <div className="flex flex-col space-y-6">
           {cards.map((card, idx) => (
-            <div key={idx} className="flex flex-col items-center p-6 bg-gray-100 shadow-md rounded-lg">
+            <div
+              key={idx}
+              className="flex flex-col items-center p-6 shadow-md rounded-lg"
+              style={{ backgroundColor: card.bgColor }} // Apply background color dynamically
+            >
               <img src={card.logo} alt={card.title} className="h-12 w-12 mb-4" />
-              <h3 className="text-lg font-semibold">{card.title}</h3>
-              <p className="text-sm text-gray-500">{card.subtitle}</p>
+              <h3 className="text-lg font-semibold text-white">{card.title}</h3> {/* Changed text color to white for contrast */}
+              <p className="text-sm text-gray-200">{card.subtitle}</p>
             </div>
           ))}
         </div>
       </div>
     );
-  }
-
+  };
+  
   export default CenterDashboard;
   
